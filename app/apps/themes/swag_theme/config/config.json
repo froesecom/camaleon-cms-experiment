@@ -1,14 +1,14 @@
 {
   "name" : "Swag Theme",
-  "description" : "",
-  "thumb" : "assets/images/image.png",
+  "description" : "This is a swag theme",
+  "thumb" : "images/swag.jpg",
   "helpers": [
     "Themes::SwagTheme::MainHelper"
   ],
   "hooks": {
-    "on_active": ["themKey_on_install_theme"],
-    "on_inactive": ["themKey_on_uninstall_theme"],
-    "on_theme_settings": ["themKey_settings"]
+    "on_active": ["swag_theme_on_install_theme"],
+    "on_inactive": ["swag_theme_on_uninstall_theme"],
+    "on_theme_settings": ["swag_theme_settings"]
     //here all your hooks
   }
 }
